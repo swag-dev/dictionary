@@ -1,0 +1,40 @@
+#word_content{
+    .word__type_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        .word_type{
+            font-size: 24px;
+            font-weight: 700;
+            font-style: italic;
+        }
+        .line2{
+            width: 90%;
+            height: 1px;
+            background-color: $gray4;
+        }
+    }
+    .meanings{
+        margin-top: 20px;
+        .meaning{
+            list-style-type: $purple1;
+            margin-top: 10px;
+        }
+    }
+    .synonyms{
+        display: flex;
+        font-size: 20px;
+        margin-top: 20px;
+        .synonym{
+            font-size: 20px;
+            font-weight: 700;
+            color: $purple1;
+            margin-left: 15px;
+            .word_synonym{
+                display: inline;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+#word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    #word_container{
+        h1{
+            font-size: 64px;
+        }
+        .pronunciation{
+            li{
+                list-style: none;
+                font-size: 24px;
+                color: $purple1;
+            }
+            
+        }
+    }
+    #play__word_button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: $purple2;
+        border-radius: 100%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
